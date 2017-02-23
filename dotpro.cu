@@ -41,7 +41,7 @@ int main()
 
 	a=(int*)malloc(n);
 	b=(int*)malloc(n);
-	c=(int*)malloc(n);
+	c=(int*)malloc(sizeof(int));
 
 	for(i=0;i<SIZE;i++)
 	{
